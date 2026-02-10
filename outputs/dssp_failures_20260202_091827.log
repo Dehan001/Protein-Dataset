@@ -1,0 +1,405 @@
+[FAIL] 6ZW4 mode=dssp
+
+Configuration error:
+
+The attempt to retrieve compound information for "ALA" failed.
+
+This information is searched for in a CCD file called components.cif or
+components.cif.gz which should be located in one of the following directories:
+
+"C:\\Users\\fd02629\\AppData\\Local\\anaconda3\\share\\libcifpp"
+
+(Note that you can add a directory to the search paths by setting the 
+LIBCIFPP_DATA_DIR environmental variable)
+
+The current order of compound factory objects is:
+
+CCD components.cif resource
+Unknown compound: ALA
+Unknown compound: ARG
+Unknown compound: ASN
+Unknown compound: ASP
+Unknown compound: GLN
+Unknown compound: GLU
+Unknown compound: GLY
+Unknown compound: ILE
+Unknown compound: LEU
+Unknown compound: LYS
+Unknown compound: MET
+Unknown compound: PHE
+Unknown compound: PRO
+Unknown compound: SER
+Unknown compound: THR
+Unknown compound: TRP
+Unknown compound: TYR
+Unknown compound: VAL
+Missing compound information for GLU
+Missing compound information for LYS
+Missing compound information for MET
+Missing compound information for LEU
+Missing compound information for GLN
+Missing compound information for ALA
+Missing compound information for ILE
+Missing compound information for ASP
+Missing compound information for VAL
+Missing compound information for ARG
+Missing compound information for GLY
+Missing compound information for SER
+Missing compound information for TYR
+Missing compound information for ASN
+Missing compound information for TRP
+Missing compound information for THR
+Missing compound information for PHE
+Missing compound information for PRO
+
+--------------------------------------------------------------------------------
+[FAIL] 6ZVT mode=dssp
+
+Configuration error:
+
+The attempt to retrieve compound information for "ALA" failed.
+
+This information is searched for in a CCD file called components.cif or
+components.cif.gz which should be located in one of the following directories:
+
+"C:\\Users\\fd02629\\AppData\\Local\\anaconda3\\share\\libcifpp"
+
+(Note that you can add a directory to the search paths by setting the 
+LIBCIFPP_DATA_DIR environmental variable)
+
+The current order of compound factory objects is:
+
+CCD components.cif resource
+Unknown compound: ALA
+Unknown compound: ARG
+Unknown compound: ASN
+Unknown compound: ASP
+Unknown compound: GLN
+Unknown compound: GLU
+Unknown compound: GLY
+Unknown compound: ILE
+Unknown compound: LEU
+Unknown compound: LYS
+Unknown compound: MET
+Unknown compound: PHE
+Unknown compound: PRO
+Unknown compound: SER
+Unknown compound: THR
+Unknown compound: TRP
+Unknown compound: TYR
+Unknown compound: VAL
+Missing compound information for GLU
+Missing compound information for LYS
+Missing compound information for MET
+Missing compound information for LEU
+Missing compound information for GLN
+Missing compound information for ALA
+Missing compound information for ILE
+Missing compound information for ASP
+Missing compound information for VAL
+Missing compound information for ARG
+Missing compound information for GLY
+Missing compound information for SER
+Missing compound information for TYR
+Missing compound information for ASN
+Missing compound information for TRP
+Missing compound information for THR
+Missing compound information for PHE
+Missing compound information for PRO
+
+--------------------------------------------------------------------------------
+[FAIL] 6ZVS mode=dssp
+
+Configuration error:
+
+The attempt to retrieve compound information for "ALA" failed.
+
+This information is searched for in a CCD file called components.cif or
+components.cif.gz which should be located in one of the following directories:
+
+"C:\\Users\\fd02629\\AppData\\Local\\anaconda3\\share\\libcifpp"
+
+(Note that you can add a directory to the search paths by setting the 
+LIBCIFPP_DATA_DIR environmental variable)
+
+The current order of compound factory objects is:
+
+CCD components.cif resource
+Unknown compound: ALA
+Unknown compound: ARG
+Unknown compound: ASN
+Unknown compound: ASP
+Unknown compound: GLN
+Unknown compound: GLU
+Unknown compound: GLY
+Unknown compound: ILE
+Unknown compound: LEU
+Unknown compound: LYS
+Unknown compound: MET
+Unknown compound: PHE
+Unknown compound: PRO
+Unknown compound: SER
+Unknown compound: THR
+Unknown compound: TRP
+Unknown compound: TYR
+Unknown compound: VAL
+Missing compound information for GLU
+Missing compound information for LYS
+Missing compound information for MET
+Missing compound information for LEU
+Missing compound information for GLN
+Missing compound information for ALA
+Missing compound information for ILE
+Missing compound information for ASP
+Missing compound information for VAL
+Missing compound information for ARG
+Missing compound information for GLY
+Missing compound information for SER
+Missing compound information for TYR
+Missing compound information for ASN
+Missing compound information for TRP
+Missing compound information for THR
+Missing compound information for PHE
+Missing compound information for PRO
+
+--------------------------------------------------------------------------------
+[FAIL] 6TML mode=mmcif
+
+Configuration error:
+
+The attempt to retrieve compound information for "ALA" failed.
+
+This information is searched for in a CCD file called components.cif or
+components.cif.gz which should be located in one of the following directories:
+
+"C:\\Users\\fd02629\\AppData\\Local\\anaconda3\\share\\libcifpp"
+
+(Note that you can add a directory to the search paths by setting the 
+LIBCIFPP_DATA_DIR environmental variable)
+
+The current order of compound factory objects is:
+
+CCD components.cif resource
+Unknown compound: ALA
+Unknown compound: ARG
+Unknown compound: ASN
+Unknown compound: ASP
+Unknown compound: CYS
+Unknown compound: GLN
+Unknown compound: GLU
+Unknown compound: GLY
+Unknown compound: HIS
+Unknown compound: ILE
+Unknown compound: LEU
+Unknown compound: LYS
+Unknown compound: MET
+Unknown compound: PHE
+Unknown compound: PRO
+Unknown compound: SER
+Unknown compound: THR
+Unknown compound: TRP
+Unknown compound: TYR
+Unknown compound: VAL
+Missing compound information for VAL
+Missing compound information for ARG
+Missing compound information for ASN
+Missing compound information for GLN
+Missing compound information for TYR
+Missing compound information for PRO
+Missing compound information for ALA
+Missing compound information for SER
+Missing compound information for GLU
+Missing compound information for ILE
+Missing compound information for PHE
+Missing compound information for LEU
+Missing compound information for ASP
+Missing compound information for THR
+Missing compound information for CYS
+Missing compound information for LYS
+Missing compound information for MET
+Missing compound information for HIS
+Missing compound information for GLY
+Missing compound information for TRP
+
+--------------------------------------------------------------------------------
+[FAIL] 6WOV mode=dssp
+
+Configuration error:
+
+The attempt to retrieve compound information for "ALA" failed.
+
+This information is searched for in a CCD file called components.cif or
+components.cif.gz which should be located in one of the following directories:
+
+"C:\\Users\\fd02629\\AppData\\Local\\anaconda3\\share\\libcifpp"
+
+(Note that you can add a directory to the search paths by setting the 
+LIBCIFPP_DATA_DIR environmental variable)
+
+The current order of compound factory objects is:
+
+CCD components.cif resource
+Unknown compound: ALA
+Unknown compound: ARG
+Unknown compound: ASN
+Unknown compound: ASP
+Unknown compound: CYS
+Unknown compound: GLN
+Unknown compound: GLU
+Unknown compound: GLY
+Unknown compound: HIS
+Unknown compound: ILE
+Unknown compound: LEU
+Unknown compound: LYS
+Unknown compound: MET
+Unknown compound: PHE
+Unknown compound: PRO
+Unknown compound: SER
+Unknown compound: THR
+Unknown compound: TRP
+Unknown compound: TYR
+Unknown compound: VAL
+Unknown compound: ZN
+Missing compound information for GLU
+Missing compound information for ILE
+Missing compound information for GLN
+Missing compound information for PHE
+Missing compound information for LEU
+Missing compound information for ARG
+Missing compound information for THR
+Missing compound information for ASP
+Missing compound information for VAL
+Missing compound information for CYS
+Missing compound information for ALA
+Missing compound information for HIS
+Missing compound information for LYS
+Missing compound information for GLY
+Missing compound information for ASN
+Missing compound information for SER
+Missing compound information for PRO
+Missing compound information for MET
+Missing compound information for TYR
+Missing compound information for TRP
+Missing compound information for ZN
+
+--------------------------------------------------------------------------------
+[FAIL] 6W19 mode=dssp
+
+Configuration error:
+
+The attempt to retrieve compound information for "ALA" failed.
+
+This information is searched for in a CCD file called components.cif or
+components.cif.gz which should be located in one of the following directories:
+
+"C:\\Users\\fd02629\\AppData\\Local\\anaconda3\\share\\libcifpp"
+
+(Note that you can add a directory to the search paths by setting the 
+LIBCIFPP_DATA_DIR environmental variable)
+
+The current order of compound factory objects is:
+
+CCD components.cif resource
+Unknown compound: ALA
+Unknown compound: ARG
+Unknown compound: ASN
+Unknown compound: ASP
+Unknown compound: CYS
+Unknown compound: GLN
+Unknown compound: GLU
+Unknown compound: GLY
+Unknown compound: HIS
+Unknown compound: ILE
+Unknown compound: LEU
+Unknown compound: LYS
+Unknown compound: MET
+Unknown compound: PHE
+Unknown compound: PRO
+Unknown compound: SER
+Unknown compound: THR
+Unknown compound: TRP
+Unknown compound: TYR
+Unknown compound: VAL
+Missing compound information for MET
+Missing compound information for ALA
+Missing compound information for SER
+Missing compound information for ASN
+Missing compound information for GLU
+Missing compound information for GLY
+Missing compound information for VAL
+Missing compound information for ARG
+Missing compound information for PRO
+Missing compound information for PHE
+Missing compound information for TYR
+Missing compound information for LEU
+Missing compound information for THR
+Missing compound information for ASP
+Missing compound information for GLN
+Missing compound information for HIS
+Missing compound information for LYS
+Missing compound information for ILE
+Missing compound information for CYS
+Missing compound information for TRP
+
+--------------------------------------------------------------------------------
+[FAIL] 6TBA mode=dssp
+
+Configuration error:
+
+The attempt to retrieve compound information for "ALA" failed.
+
+This information is searched for in a CCD file called components.cif or
+components.cif.gz which should be located in one of the following directories:
+
+"C:\\Users\\fd02629\\AppData\\Local\\anaconda3\\share\\libcifpp"
+
+(Note that you can add a directory to the search paths by setting the 
+LIBCIFPP_DATA_DIR environmental variable)
+
+The current order of compound factory objects is:
+
+CCD components.cif resource
+Unknown compound: ALA
+Unknown compound: ARG
+Unknown compound: ASN
+Unknown compound: ASP
+Unknown compound: CYS
+Unknown compound: GLN
+Unknown compound: GLU
+Unknown compound: GLY
+Unknown compound: HIS
+Unknown compound: ILE
+Unknown compound: LEU
+Unknown compound: LYS
+Unknown compound: MET
+Unknown compound: PHE
+Unknown compound: PRO
+Unknown compound: SER
+Unknown compound: SF4
+Unknown compound: THR
+Unknown compound: TRP
+Unknown compound: TYR
+Unknown compound: VAL
+Missing compound information for ALA
+Missing compound information for LEU
+Missing compound information for ASN
+Missing compound information for SER
+Missing compound information for VAL
+Missing compound information for GLU
+Missing compound information for GLY
+Missing compound information for TYR
+Missing compound information for ASP
+Missing compound information for PRO
+Missing compound information for GLN
+Missing compound information for THR
+Missing compound information for ILE
+Missing compound information for ARG
+Missing compound information for PHE
+Missing compound information for LYS
+Missing compound information for MET
+Missing compound information for TRP
+Missing compound information for HIS
+Missing compound information for CYS
+Missing compound information for SF4
+
+--------------------------------------------------------------------------------

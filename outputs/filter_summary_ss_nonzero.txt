@@ -1,0 +1,7 @@
+Input FASTA chains: 4699
+Kept (any SS > 0): 3780
+Removed (all SS == 0): 919
+Zero-rate: 0.1956
+SS source: ss_counts_20260203_125637.tsv
+Wrote: all_chains_ss_nonzero.fasta
+Wrote: chains_removed_all_ss_zero_ss_nonzero.tsv

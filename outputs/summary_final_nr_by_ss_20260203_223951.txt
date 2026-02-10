@@ -1,0 +1,14 @@
+TAG: final_nr_by_ss_20260203_223951
+Input FASTA chains (ss_nonzero): 3780
+MMseqs TSV: mmseqs_clusters_ss_nonzero.tsv
+SS counts TSV: ss_counts_20260203_125637.tsv
+Total clusters (after fixing singletons): 1732
+Singleton clusters kept: 1086
+Non-singleton clusters: 646
+Final representatives: 1732
+
+Wrote:
+ - nonredundant_rep_names_final_nr_by_ss_20260203_223951.txt
+ - nonredundant_rep_chains_final_nr_by_ss_20260203_223951.fasta
+ - cluster_reps_final_nr_by_ss_20260203_223951.tsv
+ - summary_final_nr_by_ss_20260203_223951.txt

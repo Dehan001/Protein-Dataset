@@ -1,0 +1,18 @@
+===== MMseqs2 RECORDS SUMMARY =====
+FASTA total chains: 4699
+MMseqs TSV lines read: 4699
+MMseqs TSV skipped (bad/missing IDs): 0
+MMseqs self-pairs (rep==mem) seen: 2327
+Chains covered by clustering (after adding missing as singletons): 4699
+Total clusters (representatives): 2327
+Singleton clusters (no matches): 1547
+Chains with >=1 match (in cluster size>=2): 3152
+
+Wrote:
+ - C:\Users\fd02629\Desktop\Protein Experiment\outputs\all_chain_ids.txt
+ - C:\Users\fd02629\Desktop\Protein Experiment\outputs\mmseqs_cluster_assignments.tsv
+ - C:\Users\fd02629\Desktop\Protein Experiment\outputs\mmseqs_clusters.tsv
+ - C:\Users\fd02629\Desktop\Protein Experiment\outputs\mmseqs_nonredundant_rep_names.txt
+ - C:\Users\fd02629\Desktop\Protein Experiment\outputs\mmseqs_singletons.txt
+ - C:\Users\fd02629\Desktop\Protein Experiment\outputs\mmseqs_chains_with_at_least_one_match.txt
+ - C:\Users\fd02629\Desktop\Protein Experiment\outputs\mmseqs_cluster_size_distribution.tsv

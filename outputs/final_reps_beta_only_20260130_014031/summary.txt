@@ -1,0 +1,6 @@
+Input FASTA chains (beta-only): 2129
+Total clusters (after adding missing as singletons): 1171
+Singleton clusters kept: 765
+Non-singleton clusters: 406
+Final representatives written: 1171
+Output folder: C:\Users\fd02629\Desktop\Protein Experiment\outputs\final_reps_beta_only_20260130_014031

@@ -1,0 +1,23 @@
+===== MMseqs2 RECORDS SUMMARY (BETA-ONLY) =====
+Run folder: C:\Users\fd02629\Desktop\Protein Experiment\outputs\records_mmseqs_beta_only_20260130_013539
+Input FASTA: C:\Users\fd02629\Desktop\Protein Experiment\outputs\all_chains_beta_only.fasta
+Input MMseqs TSV: C:\Users\fd02629\Desktop\Protein Experiment\outputs\mmseqs_clusters_beta_only.tsv
+
+FASTA total chains: 2129
+MMseqs TSV lines read: 2129
+MMseqs TSV skipped (bad/missing IDs): 0
+MMseqs self-pairs (rep==mem) seen: 1171
+Chains covered (after adding missing as singletons): 2129
+Total clusters (representatives): 1171
+Singleton clusters: 765
+Chains in clusters size>=2: 1364
+
+Wrote:
+ - all_chain_ids_beta_only.txt
+ - mmseqs_cluster_assignments_beta_only.tsv
+ - mmseqs_clusters_beta_only_collapsed.tsv
+ - mmseqs_nonredundant_rep_names_beta_only.txt
+ - mmseqs_singletons_beta_only.txt
+ - mmseqs_chains_with_at_least_one_match_beta_only.txt
+ - mmseqs_cluster_size_distribution_beta_only.tsv
+ - mmseqs_records_summary_beta_only.txt

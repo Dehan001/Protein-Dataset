@@ -1,0 +1,29 @@
+===== MMseqs2 CLUSTER RECORDS SUMMARY =====
+FASTA file: all_chains_ss_nonzero.fasta
+MMseqs TSV: mmseqs_clusters_ss_nonzero.tsv
+
+Total chains in FASTA: 3780
+TSV lines read: 3780
+TSV skipped (IDs not in FASTA): 0
+TSV self-pairs rep==mem: 1732
+
+Chains missing from TSV (added as singleton clusters): 0
+Chains covered by clustering (after adding missing): 3780 (should equal 3780)
+
+Total clusters (unique reps): 1732
+Singleton clusters: 1086
+Non-singleton clusters: 646
+Chains in singleton clusters: 1086
+Chains in size>=2 clusters: 2694
+
+Wrote files:
+ - records_chain_ids_20260203_225432.txt
+ - records_assignment_20260203_225432.tsv
+ - records_clusters_20260203_225432.tsv
+ - records_reps_20260203_225432.txt
+ - records_singleton_clusters_20260203_225432.tsv
+ - records_nonsingle_clusters_20260203_225432.tsv
+ - records_singleton_chains_20260203_225432.txt
+ - records_chains_in_size_ge2_20260203_225432.txt
+ - records_missing_from_tsv_20260203_225432.txt
+ - records_cluster_size_distribution_20260203_225432.tsv
