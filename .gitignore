@@ -49,7 +49,7 @@ mmseqs_work_ss_nonzero/
 
 # DSSP outputs (generated)
 dssp_out/
-dssp_dict/
+
 
 # Outputs / intermediate results
 outputs/
