@@ -1,0 +1,62 @@
+# =========================
+# Python
+# =========================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg-info/
+.eggs/
+dist/
+build/
+
+# Virtual environment
+venv/
+.env
+.venv/
+
+# =========================
+# OS / Editor junk
+# =========================
+.DS_Store
+Thumbs.db
+*.swp
+*.tmp
+*.bak
+
+# =========================
+# Logs
+# =========================
+*.log
+
+# =========================
+# Large datasets / generated data
+# =========================
+
+# Ignore PDB model files
+pdb_models/
+pdb_models_pdb/
+
+# Ignore EM maps
+em_maps/
+
+# MMseqs working directories (reproducible)
+mmseqs_tmp/
+mmseqs_work/
+mmseqs_work_beta_only/
+mmseqs_work_ss_nonzero/
+
+# DSSP outputs (generated)
+dssp_out/
+dssp_dict/
+
+# Outputs / intermediate results
+outputs/
+
+# =========================
+# Allow FASTA files (explicit)
+# =========================
+!*.fasta
+!*.fa
+!*.faa
