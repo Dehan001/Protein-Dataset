@@ -1,0 +1,293 @@
+(venv) PS C:\Users\fd02629\Desktop\Protein Experiment> .\venv\Scripts\python.exe .\step_mmseqs_cluster_beta_only.py
+mmseqs createdb C:\mmseqs_beta_only\all_chains_beta_only.fasta C:\mmseqs_beta_only\work\chainsDB --threads 8
+createdb C:\mmseqs_beta_only\all_chains_beta_only.fasta C:\mmseqs_beta_only\work\chainsDB --threads 8 
+
+MMseqs Version:                         8cc5ce367b5638c4306c2d7cfc652dd099a4643f
+Database type                           0
+Shuffle input database                  true
+Createdb mode                           0
+Write lookup file                       1
+Offset of numeric ids                   0
+Threads                                 8
+Compressed                              0
+Mask residues                           0
+Mask residues probability               0.9
+Mask lower case residues                0
+Mask lower letter repeating N times     0
+Use GPU                                 0
+Verbosity                               3
+
+Converting sequences
+[2122] 0s 84ms
+Time for merging to chainsDB_h: 0h 0m 0s 62ms
+Time for merging to chainsDB: 0h 0m 0s 65ms
+Database type: Aminoacid
+Time for processing: 0h 0m 0s 297ms
+mmseqs cluster C:\mmseqs_beta_only\work\chainsDB C:\mmseqs_beta_only\work\clustRes C:\mmseqs_beta_only\work\tmp --min-seq-id 0.9 -c 0.8 --cov-mode 1 --threads 8
+Create directory /cygdrive/c/mmseqs_beta_only/work/tmp
+cluster C:\mmseqs_beta_only\work\chainsDB C:\mmseqs_beta_only\work\clustRes C:\mmseqs_beta_only\work\tmp --min-seq-id 0.9 -c 0.8 --cov-mode 1 --threads 8 
+
+MMseqs Version:                         8cc5ce367b5638c4306c2d7cfc652dd099a4643f
+Substitution matrix                     aa:blosum62.out,nucl:nucleotide.out
+Seed substitution matrix                aa:VTML80.out,nucl:nucleotide.out
+Sensitivity                             4
+k-mer length                            0
+Target search mode                      0
+k-score                                 seq:2147483647,prof:2147483647
+Alphabet size                           aa:21,nucl:5
+Max sequence length                     65535
+Max results per query                   20
+Split database                          0
+Split mode                              2
+Split memory limit                      0
+Coverage threshold                      0.8
+Coverage mode                           1
+Compositional bias                      1
+Compositional bias scale                1
+Diagonal scoring                        true
+Exact k-mer matching                    0
+Mask residues                           1
+Mask residues probability               0.9
+Mask lower case residues                0
+Mask lower letter repeating N times     0
+Minimum diagonal score                  15
+Selected taxa
+Include identical seq. id.              false
+Spaced k-mers                           1
+Preload mode                            0
+Pseudo count a                          substitution:1.100,context:1.400
+Pseudo count b                          substitution:4.100,context:5.800
+Spaced k-mer pattern
+Local temporary path
+Threads                                 8
+Compressed                              0
+Verbosity                               3
+Add backtrace                           false
+Alignment mode                          3
+Alignment mode                          0
+Allow wrapped scoring                   false
+E-value threshold                       0.001
+Seq. id. threshold                      0.9
+Min alignment length                    0
+Seq. id. mode                           0
+Alternative alignments                  0
+Max reject                              2147483647
+Max accept                              2147483647
+Score bias                              0
+Realign hits                            false
+Realign score bias                      -0.2
+Realign max seqs                        2147483647
+Correlation score weight                0
+Gap open cost                           aa:11,nucl:5
+Gap extension cost                      aa:1,nucl:2
+Zdrop                                   40
+Rescore mode                            0
+Remove hits by seq. id. and coverage    false
+Sort results                            0
+Cluster mode                            0
+Max connected component depth           1000
+Similarity type                         2
+Weight file name
+Cluster Weight threshold                0.9
+Single step clustering                  false
+Cascaded clustering steps               3
+Cluster reassign                        false
+Remove temporary files                  false
+Force restart with latest tmp           false
+MPI runner
+k-mers per sequence                     21
+Scale k-mers per sequence               aa:0.000,nucl:0.200
+Adjust k-mer length                     false
+Shift hash                              67
+Include only extendable                 false
+Skip repeating k-mers                   false
+
+Set cluster sensitivity to -s 1.000000
+Set cluster mode GREEDY MEM
+Set cluster iterations to 1
+linclust /cygdrive/c/mmseqs_beta_only/work/chainsDB /cygdrive/c/mmseqs_beta_only/work/tmp/1552290585420786205/clu_redundancy /cygdrive/c/mmseqs_beta_only/work/tmp/1552290585420786205/linclust --cluster-mode 3 --max-iterations 1000 --similarity-type 2 --threads 8 --compressed 0 -v 3 --cluster-weight-threshold 0.9 --sub-mat 'aa:blosum62.out,nucl:nucleotide.out' -a 0 --alignment-mode 3 --alignment-output-mode 0 --wrapped-scoring 0 -e 0.001 --min-seq-id 0.9 --min-aln-len 0 --seq-id-mode 0 --alt-ali 0 -c 0.8 --cov-mode 1 --max-seq-len 65535 --comp-bias-corr 0 --comp-bias-corr-scale 1 --max-rejected 2147483647 --max-accept 2147483647 --add-self-matches 0 --db-load-mode 0 --pca substitution:1.100,context:1.400 --pcb substitution:4.100,context:5.800 --score-bias 0 --realign 0 --realign-score-bias -0.2 --realign-max-seqs 2147483647 --corr-score-weight 0 --gap-open aa:11,nucl:5 --gap-extend aa:1,nucl:2 --zdrop 40 --alph-size aa:13,nucl:5 --kmer-per-seq 21 --spaced-kmer-mode 1 --kmer-per-seq-scale aa:0.000,nucl:0.200 --adjust-kmer-len 0 --mask 0 --mask-prob 0.9 --mask-lower-case 0 --mask-n-repeat 0 -k 0 --hash-shift 67 --split-memory-limit 0 --include-only-extendable 0 --ignore-multi-kmer 0 --rescore-mode 0 --filter-hits 0 --sort-results 0 --remove-tmp-files 0 --force-reuse 0
+
+kmermatcher /cygdrive/c/mmseqs_beta_only/work/chainsDB /cygdrive/c/mmseqs_beta_only/work/tmp/1552290585420786205/linclust/16502870692116230236/pref --sub-mat 'aa:blosum62.out,nucl:nucleotide.out' --alph-size aa:13,nucl:5 --min-seq-id 0.9 --kmer-per-seq 21 --spaced-kmer-mode 1 --kmer-per-seq-scale aa:0.000,nucl:0.200 --adjust-kmer-len 0 --mask 0 --mask-prob 0.9 --mask-lower-case 0 --mask-n-repeat 0 --cov-mode 1 -k 0 -c 0.8 --max-seq-len 65535 --hash-shift 67 --split-memory-limit 0 --include-only-extendable 0 --ignore-multi-kmer 0 --threads 8 --compressed 0 -v 3 --cluster-weight-threshold 0.9
+
+kmermatcher /cygdrive/c/mmseqs_beta_only/work/chainsDB /cygdrive/c/mmseqs_beta_only/work/tmp/1552290585420786205/linclust/16502870692116230236/pref --sub-mat 'aa:blosum62.out,nucl:nucleotide.out' --alph-size aa:13,nucl:5 --min-seq-id 0.9 --kmer-per-seq 21 --spaced-kmer-mode 1 --kmer-per-seq-scale aa:0.000,nucl:0.200 --adjust-kmer-len 0 --mask 0 --mask-prob 0.9 --mask-lower-case 0 --mask-n-repeat 0 --cov-mode 1 -k 0 -c 0.8 --max-seq-len 65535 --hash-shift 67 --split-memory-limit 0 --include-only-extendable 0 --ignore-multi-kmer 0 --threads 8 --compressed 0 -v 3 --cluster-weight-threshold 0.9
+
+Database size: 2129 type: Aminoacid
+Reduced amino acid alphabet: (A S T) (C) (D B N) (E Q Z) (F Y) (G) (H) (I V) (K R) (L J M) (P) (W) (X)
+
+Generate k-mers list for 1 split
+[=================================================================] 100.00% 2.13K 0s 32ms     
+Sort kmer 0h 0m 0s 2ms
+Sort by rep. sequence 0h 0m 0s 1ms
+Time for fill: 0h 0m 0s 0ms
+Time for merging to pref: 0h 0m 0s 11ms
+Time for processing: 0h 0m 0s 67ms
+rescorediagonal /cygdrive/c/mmseqs_beta_only/work/chainsDB /cygdrive/c/mmseqs_beta_only/work/chainsDB /cygdrive/c/mmseqs_beta_only/work/tmp/1552290585420786205/linclust/16502870692116230236/pref /cygdrive/c/mmseqs_beta_only/work/tmp/1552290585420786205/linclust/16502870692116230236/pref_rescore1 --sub-mat 'aa:blosum62.out,nucl:nucleotide.out' --rescore-mode 0 --wrapped-scoring 0 --filter-hits 0 -e 0.001 -c 0.8 -a 0 --cov-mode 1 --min-seq-id 0.9 --min-aln-len 0 --seq-id-mode 0 --add-self-matches 0 --sort-results 0 --db-load-mode 0 --threads 8 --compressed 0 -v 3
+
+[=================================================================] 100.00% 2.13K 0s 37ms     
+Time for merging to pref_rescore1: 0h 0m 0s 20ms
+Time for processing: 0h 0m 0s 86ms
+clust /cygdrive/c/mmseqs_beta_only/work/chainsDB /cygdrive/c/mmseqs_beta_only/work/tmp/1552290585420786205/linclust/16502870692116230236/pref_rescore1 /cygdrive/c/mmseqs_beta_only/work/tmp/1552290585420786205/linclust/16502870692116230236/pre_clust --cluster-mode 3 --max-iterations 1000 --similarity-type 2 --threads 8 --compressed 0 -v 3 --cluster-weight-threshold 0.9
+
+Clustering mode: Greedy Low Mem
+Total time: 0h 0m 0s 4ms
+
+Size of the sequence database: 2129
+Size of the alignment database: 2129
+Number of clusters: 1216
+
+Writing results 0h 0m 0s 7ms
+Time for merging to pre_clust: 0h 0m 0s 9ms
+Time for processing: 0h 0m 0s 29ms
+createsubdb /cygdrive/c/mmseqs_beta_only/work/tmp/1552290585420786205/linclust/16502870692116230236/order_redundancy /cygdrive/c/mmseqs_beta_only/work/chainsDB /cygdrive/c/mmseqs_beta_only/work/tmp/1552290585420786205/linclust/16502870692116230236/input_step_redundancy -v 3 --subdb-mode 1
+
+Time for merging to input_step_redundancy: 0h 0m 0s 14ms
+Time for processing: 0h 0m 0s 23ms
+createsubdb /cygdrive/c/mmseqs_beta_only/work/tmp/1552290585420786205/linclust/16502870692116230236/order_redundancy /cygdrive/c/mmseqs_beta_only/work/tmp/1552290585420786205/linclust/16502870692116230236/pref /cygdrive/c/mmseqs_beta_only/work/tmp/1552290585420786205/linclust/16502870692116230236/pref_filter1 -v 3 --subdb-mode 1
+
+Time for merging to pref_filter1: 0h 0m 0s 15ms
+Time for processing: 0h 0m 0s 29ms
+filterdb /cygdrive/c/mmseqs_beta_only/work/tmp/1552290585420786205/linclust/16502870692116230236/pref_filter1 /cygdrive/c/mmseqs_beta_only/work/tmp/1552290585420786205/linclust/16502870692116230236/pref_filter2 --filter-file /cygdrive/c/mmseqs_beta_only/work/tmp/1552290585420786205/linclust/16502870692116230236/order_redundancy --threads 8 --compressed 0 -v 3
+
+Filtering using file(s)
+[=================================================================] 100.00% 1.22K 0s 41ms     
+Time for merging to pref_filter2: 0h 0m 0s 19ms
+Time for processing: 0h 0m 0s 88ms
+rescorediagonal /cygdrive/c/mmseqs_beta_only/work/tmp/1552290585420786205/linclust/16502870692116230236/input_step_redundancy /cygdrive/c/mmseqs_beta_only/work/tmp/1552290585420786205/linclust/16502870692116230236/input_step_redundancy /cygdrive/c/mmseqs_beta_only/work/tmp/1552290585420786205/linclust/16502870692116230236/pref_filter2 /cygdrive/c/mmseqs_beta_only/work/tmp/1552290585420786205/linclust/16502870692116230236/pref_rescore2 --sub-mat 'aa:blosum62.out,nucl:nucleotide.out' --rescore-mode 1 --wrapped-scoring 0 --filter-hits 1 -e 0.001 -c 0.8 -a 0 --cov-mode 1 --min-seq-id 0.9 --min-aln-len 0 --seq-id-mode 0 --add-self-matches 0 --sort-results 0 --db-load-mode 0 --threads 8 --compressed 0 -v 3
+
+[=================================================================] 100.00% 1.22K 0s 39ms     
+Time for merging to pref_rescore2: 0h 0m 0s 25ms
+Time for processing: 0h 0m 0s 89ms
+align /cygdrive/c/mmseqs_beta_only/work/tmp/1552290585420786205/linclust/16502870692116230236/input_step_redundancy /cygdrive/c/mmseqs_beta_only/work/tmp/1552290585420786205/linclust/16502870692116230236/input_step_redundancy /cygdrive/c/mmseqs_beta_only/work/tmp/1552290585420786205/linclust/16502870692116230236/pref_rescore2 /cygdrive/c/mmseqs_beta_only/work/tmp/1552290585420786205/linclust/16502870692116230236/aln --sub-mat 'aa:blosum62.out,nucl:nucleotide.out' -a 0 --alignment-mode 3 --alignment-output-mode 0 --wrapped-scoring 0 -e 0.001 --min-seq-id 0.9 --min-aln-len 0 --seq-id-mode 0 --alt-ali 0 -c 0.8 --cov-mode 1 --max-seq-len 65535 --comp-bias-corr 0 --comp-bias-corr-scale 1 --max-rejected 2147483647 --max-accept 2147483647 --add-self-matches 0 --db-load-mode 0 --pca substitution:1.100,context:1.400 --pcb substitution:4.100,context:5.800 --score-bias 0 --realign 0 --realign-score-bias -0.2 --realign-max-seqs 2147483647 --corr-score-weight 0 --gap-open aa:11,nucl:5 --gap-extend aa:1,nucl:2 --zdrop 40 --threads 8 --compressed 0 -v 3
+
+Compute score, coverage and sequence identity
+Query database size: 1216 type: Aminoacid
+Target database size: 1216 type: Aminoacid
+Calculation of alignments
+[=================================================================] 100.00% 1.22K 0s 28ms     
+Time for merging to aln: 0h 0m 0s 28ms
+1364 alignments calculated
+1251 sequence pairs passed the thresholds (0.917155 of overall calculated)
+1.028783 hits per query sequence
+Time for processing: 0h 0m 0s 78ms
+clust /cygdrive/c/mmseqs_beta_only/work/tmp/1552290585420786205/linclust/16502870692116230236/input_step_redundancy /cygdrive/c/mmseqs_beta_only/work/tmp/1552290585420786205/linclust/16502870692116230236/aln /cygdrive/c/mmseqs_beta_only/work/tmp/1552290585420786205/linclust/16502870692116230236/clust --cluster-mode 3 --max-iterations 1000 --similarity-type 2 --threads 8 --compressed 0 -v 3 --cluster-weight-threshold 0.9
+
+Clustering mode: Greedy Low Mem
+Total time: 0h 0m 0s 4ms
+
+Size of the sequence database: 1216
+Size of the alignment database: 1216
+Number of clusters: 1183
+
+Writing results 0h 0m 0s 7ms
+Time for merging to clust: 0h 0m 0s 11ms
+Time for processing: 0h 0m 0s 32ms
+mergeclusters /cygdrive/c/mmseqs_beta_only/work/chainsDB /cygdrive/c/mmseqs_beta_only/work/tmp/1552290585420786205/clu_redundancy /cygdrive/c/mmseqs_beta_only/work/tmp/1552290585420786205/linclust/16502870692116230236/pre_clust /cygdrive/c/mmseqs_beta_only/work/tmp/1552290585420786205/linclust/16502870692116230236/clust --threads 8 --compressed 0 -v 3
+
+Clustering step 1
+[=================================================================] 100.00% 1.22K 0s 31ms     
+Clustering step 2
+[=================================================================] 100.00% 1.18K 0s 61ms     
+Write merged clustering
+[=================================================================] 100.00% 2.13K 0s 114ms    
+Time for merging to clu_redundancy: 0h 0m 0s 18ms
+Time for processing: 0h 0m 0s 151ms
+createsubdb /cygdrive/c/mmseqs_beta_only/work/tmp/1552290585420786205/clu_redundancy /cygdrive/c/mmseqs_beta_only/work/chainsDB /cygdrive/c/mmseqs_beta_only/work/tmp/1552290585420786205/input_step_redundancy -v 3 --subdb-mode 1
+
+Time for merging to input_step_redundancy: 0h 0m 0s 14ms
+Time for processing: 0h 0m 0s 25ms
+prefilter /cygdrive/c/mmseqs_beta_only/work/tmp/1552290585420786205/input_step_redundancy /cygdrive/c/mmseqs_beta_only/work/tmp/1552290585420786205/input_step_redundancy /cygdrive/c/mmseqs_beta_only/work/tmp/1552290585420786205/pref_step0 --sub-mat 'aa:blosum62.out,nucl:nucleotide.out' --seed-sub-mat 'aa:VTML80.out,nucl:nucleotide.out' -s 1 -k 0 --target-search-mode 0 --k-score seq:2147483647,prof:2147483647 --alph-size aa:21,nucl:5 --max-seq-len 65535 --max-seqs 20 --split 0 --split-mode 2 --split-memory-limit 0 -c 0.8 --cov-mode 1 --comp-bias-corr 0 --comp-bias-corr-scale 1 --diag-score 0 --exact-kmer-matching 0 --mask 1 --mask-prob 0.9 --mask-lower-case 0 --mask-n-repeat 0 --min-ungapped-score 0 --add-self-matches 0 --spaced-kmer-mode 1 --db-load-mode 0 --pca substitution:1.100,context:1.400 --pcb substitution:4.100,context:5.800 --threads 8 --compressed 0 -v 3
+
+Query database size: 1183 type: Aminoacid
+Estimated memory consumption: 982M
+Target database size: 1183 type: Aminoacid
+Index table k-mer threshold: 154 at k-mer size 6 
+Index table: counting k-mers
+[=================================================================] 100.00% 1.18K 0s 25ms     
+Index table: Masked residues: 12316
+Index table: fill
+[=================================================================] 100.00% 1.18K 0s 29ms     
+Index statistics
+Entries:          315548
+DB size:          490 MB
+Avg k-mer size:   0.004930
+Top 10 k-mers
+    SHQEGG      19
+    FPPTWN      19
+    CLKYEP      19
+    VHFAQS      19
+    SGHFVL      18
+    LGLKFP      18
+    WNGLGV      18
+    WSPFGG      17
+    YWQTTV      17
+    RQPKEW      17
+Time for index table init: 0h 0m 0s 361ms
+Process prefiltering step 1 of 1
+
+k-mer similarity threshold: 154
+Starting prefiltering scores calculation (step 1 of 1)
+Query db start 1 to 1183
+Target db start 1 to 1183
+[=================================================================] 100.00% 1.18K 0s 32ms     
+
+1.978275 k-mers per position
+346 DB matches per sequence
+0 overflows
+3 sequences passed prefiltering per query sequence
+1 median result list length
+0 sequences with 0 size result lists
+Time for merging to pref_step0: 0h 0m 0s 27ms
+Time for processing: 0h 0m 0s 754ms
+align /cygdrive/c/mmseqs_beta_only/work/tmp/1552290585420786205/input_step_redundancy /cygdrive/c/mmseqs_beta_only/work/tmp/1552290585420786205/input_step_redundancy /cygdrive/c/mmseqs_beta_only/work/tmp/1552290585420786205/pref_step0 /cygdrive/c/mmseqs_beta_only/work/tmp/1552290585420786205/aln_step0 --sub-mat 'aa:blosum62.out,nucl:nucleotide.out' -a 0 --alignment-mode 3 --alignment-output-mode 0 --wrapped-scoring 0 -e 0.001 --min-seq-id 0.9 --min-aln-len 0 --seq-id-mode 0 --alt-ali 0 -c 0.8 --cov-mode 1 --max-seq-len 65535 --comp-bias-corr 0 --comp-bias-corr-scale 1 --max-rejected 2147483647 --max-accept 2147483647 --add-self-matches 0 --db-load-mode 0 --pca substitution:1.100,context:1.400 --pcb substitution:4.100,context:5.800 --score-bias 0 --realign 0 --realign-score-bias -0.2 --realign-max-seqs 2147483647 --corr-score-weight 0 --gap-open aa:11,nucl:5 --gap-extend aa:1,nucl:2 --zdrop 40 --threads 8 --compressed 0 -v 3
+
+Compute score, coverage and sequence identity
+Query database size: 1183 type: Aminoacid
+Target database size: 1183 type: Aminoacid
+Calculation of alignments
+[=================================================================] 100.00% 1.18K 0s 517ms    
+Time for merging to aln_step0: 0h 0m 0s 26ms
+3064 alignments calculated
+1211 sequence pairs passed the thresholds (0.395235 of overall calculated)
+1.023669 hits per query sequence
+Time for processing: 0h 0m 0s 569ms
+clust /cygdrive/c/mmseqs_beta_only/work/tmp/1552290585420786205/input_step_redundancy /cygdrive/c/mmseqs_beta_only/work/tmp/1552290585420786205/aln_step0 /cygdrive/c/mmseqs_beta_only/work/tmp/1552290585420786205/clu_step0 --cluster-mode 3 --max-iterations 1000 --similarity-type 2 --threads 8 --compressed 0 -v 3 --cluster-weight-threshold 0.9
+
+Clustering mode: Greedy Low Mem
+Total time: 0h 0m 0s 4ms
+
+Size of the sequence database: 1183
+Size of the alignment database: 1183
+Number of clusters: 1171
+
+Writing results 0h 0m 0s 7ms
+Time for merging to clu_step0: 0h 0m 0s 11ms
+Time for processing: 0h 0m 0s 32ms
+mergeclusters /cygdrive/c/mmseqs_beta_only/work/chainsDB /cygdrive/c/mmseqs_beta_only/work/clustRes /cygdrive/c/mmseqs_beta_only/work/tmp/1552290585420786205/clu_redundancy /cygdrive/c/mmseqs_beta_only/work/tmp/1552290585420786205/clu_step0 --threads 8 --compressed 0 -v 3
+
+Clustering step 1
+[=================================================================] 100.00% 1.18K 0s 42ms     
+Clustering step 2
+[=================================================================] 100.00% 1.17K 0s 65ms     
+Write merged clustering
+[=================================================================] 100.00% 2.13K 0s 104ms    
+Time for merging to clustRes: 0h 0m 0s 18ms
+Time for processing: 0h 0m 0s 141ms
+mmseqs createtsv C:\mmseqs_beta_only\work\chainsDB C:\mmseqs_beta_only\work\chainsDB C:\mmseqs_beta_only\work\clustRes C:\Users\fd02629\Desktop\Protein Experiment\outputs\mmseqs_clusters_beta_only.tsv
+createtsv C:\mmseqs_beta_only\work\chainsDB C:\mmseqs_beta_only\work\chainsDB C:\mmseqs_beta_only\work\clustRes C:\Users\fd02629\Desktop\Protein Experiment\outputs\mmseqs_clusters_beta_only.tsv
+
+MMseqs Version:                         8cc5ce367b5638c4306c2d7cfc652dd099a4643f
+First sequence as representative        false
+Target column                           1
+Add full header                         false
+Sequence source                         0
+Database output                         false
+Threads                                 24
+Compressed                              0
+Verbosity                               3
+
+Time for merging to mmseqs_clusters_beta_only.tsv: 0h 0m 0s 28ms
+Time for processing: 0h 0m 0s 86ms
+
+DONE
+Wrote: C:\Users\fd02629\Desktop\Protein Experiment\outputs\mmseqs_clusters_beta_only.tsv
+Scratch workdir: C:\mmseqs_beta_only\work
