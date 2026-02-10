@@ -1,0 +1,6 @@
+===== STEP 2 SUMMARY =====
+PDB entries processed: 1099
+Chain-level FASTA written: 4699
+Dropped (X > 20%): 99
+PDB with no EMDB: 0
+FASTA records with no chain parsed: 0

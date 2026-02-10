@@ -1,0 +1,3 @@
+Step 1 — Filter out chains with ALL SS metrics = 0
+Step 2 — MMseqs2 clustering on the filtered FASTA (no overwrite)
+Step 3 — Select final non-redundant reps (keep singletons + pick 1 from non-singletons)
